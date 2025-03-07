@@ -1,18 +1,18 @@
 #
 # Conditional build:
 %bcond_with	tests		# build with tests
-%define		kdeappsver	24.12.2
+%define		kdeappsver	24.12.3
 %define		kframever	5.94.0
 %define		qtver		5.15.2
 %define		kaname		kmbox
 Summary:	Kmbox
 Name:		ka6-%{kaname}
-Version:	24.12.2
+Version:	24.12.3
 Release:	1
 License:	GPL v2+/LGPL v2.1+
 Group:		X11/Applications
 Source0:	https://download.kde.org/stable/release-service/%{kdeappsver}/src/%{kaname}-%{version}.tar.xz
-# Source0-md5:	304c55c267a5ea05eb1beb244e25fa5e
+# Source0-md5:	301d3b30d68bc26bc1831d72b4212922
 URL:		http://www.kde.org/
 BuildRequires:	Qt6Core-devel >= %{qtver}
 BuildRequires:	Qt6Test-devel
